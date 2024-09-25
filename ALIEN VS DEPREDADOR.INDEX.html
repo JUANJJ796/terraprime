@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien vs Depredador - Batalla Épica</title>
+    <style>
+        #DEPRE{
+            color: aquamarine;
+            font-size: 25px;
+            font-style: oblique;
+            font-weight: 50;
+            background-color: rgba(163, 4, 4, 0.884);
+            padding: 30PX;
+        }
+
+        #ALIEN{
+            color: aquamarine;
+            font-size: 25px;
+            font-style: oblique;
+            font-weight: 50;
+            background-color: rgb(6, 55, 146);
+            padding: 30PX;
+        }
+
+        /* Estilo del body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            /* Fondo oscuro para el tema Alien vs Predator */
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Box Model para el encabezado */
+        header {
+            background-color: #222;
+            border: 5px solid red;
+            /* Borde del encabezado */
+            padding: 20px;
+            /* Padding dentro del encabezado */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: lime;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0 0;
+            color: red;
+        }
+
+        /* Box Model para la sección principal */
+        .main-content {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        /* Box Model para cada caja (Alien y Predator) */
+        .alien,
+        .predator {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid lime;
+            background-color: #111;
+            box-sizing: border-box;
+            /* Para incluir el padding y el borde en el ancho total */
+            margin: 20px;
+        }
+
+        .alien h2,
+        .predator h2 {
+            text-align: center;
+            color: lime;
+            margin-bottom: 15px;
+        }
+
+        .alien img,
+        .predator img {
+            width: 100%;
+            height: auto;
+            border: 3px solid red;
+            border-radius: 5px;
+        }
+
+        .alien p,
+        .predator p {
+            text-align: justify;
+        }
+
+        /* Box Model para el pie de página */
+        footer {
+            background-color: #222;
+            border-top: 5px solid red;
+            padding: 20px;
+            text-align: center;
+            color: grey;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Alien vs Depredador</h1>
+        <p>La batalla definitiva entre dos especies legendarias</p>
+    </header>
+
+    <!-- Sección principal con box model aplicado -->
+    <div class="main-content">
+        <!-- Caja Alien -->
+        <div class="alien">
+            <h2>Alien</h2>
+            <img src="C:\Users\Hp\Desktop\wbbbb\45f3f861-2eda-4c0d-8c51-25fedc09b05f.jpg" alt="Imagen de Alien">
+            <!-- Cambia la URL de la imagen -->
+            <p id="ALIEN">El Xenomorfo, una criatura alienígena conocida por su letalidad, capacidad de adaptación y forma de
+                reproducción aterradora.</p>
+        </div>
+
+        <!-- Caja Predator -->
+        <div class="predator">
+            <h2>Depredador</h2>
+            <img src="C:\Users\Hp\Desktop\wbbbb\093e32b9a42edc333f0eb0f1673f19e4.jpg" alt="Imagen de Depredador">
+            <!-- Cambia la URL de la imagen -->
+            <p id="DEPRE">El Depredador, un cazador intergaláctico con tecnología avanzada, conocido por su brutalidad y honor en
+                la caza.</p>
+        </div>
+    </div>
+    <header>
+        <p>"Alien vs. Depredador" es una película que cumple con las expectativas de los fans al ofrecer un
+            enfrentamiento épico entre dos icónicas criaturas. Sin embargo, no alcanza la calidad de las películas
+            originales de ambas sagas y adolece de ciertos problemas en el guion y en el desarrollo de los personajes
+            humanos.
+        </p>
+    </header>
+</body>
+
+</html>
